@@ -1,3 +1,279 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  header {
+    background-image: url("../assets/images/hero.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 42vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 3vw;
+    box-shadow: inset -4px -50px 53px 0px #76278F;
+  }
+  
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    height: 5vw;
+    width: 26vw;
+    color: white;
+    align-items: center;
+    padding-top: 0.5vw;
+    padding-left: 6vw;
+  }
+  
+  .whiteLogo {
+    width: 4vw;
+    height: 3vw;
+    padding: 1.5vw;
+  }
+  
+  .login {
+    border-radius: 4px;
+    border: solid 1px white;
+    padding: 0.6vw;
+    width: 5vw;
+    text-align: center;
+  }
+  
+  nav div {
+    margin-right: 2vw;
+  }
+  
+  .signUp {
+    align-self: flex-end;
+    text-align: center;
+    background-color: white;
+    color: #352384;
+    margin-top: 4vw;
+    width: 39.5vw;
+    height: 26.6vw;
+    padding-top: 2.5vw;
+  }
+  
+  .turnMiles {
+    font-weight: 700;
+    margin-right: 15vw;
+    letter-spacing: 2px;
+  }
+  
+  .driveWithLyft {
+    font-weight: 600;
+    margin-right: 9vw;
+    letter-spacing: -2px;
+  }
+  
+  .phoneNumber {
+    border: none;
+    background: transparent;
+    font-size: 1.5vw;
+    font-size: small;
+    border-bottom: solid 1px #728099;
+    width: 31.7vw;
+    letter-spacing: 2px;
+    padding-bottom: 6px;
+    color: #728099;
+  }
+  
+  .signUpBottons {
+    margin: 1.5vw 0vw 1.9vw 4vw;
+    display: flex;
+    justify-content: flex-start;
+    width: 31vw;
+    align-items: center;
+  }
+  
+  .becomeADriverBotton {
+    background-color: #FF00BF;
+    color: white;
+    border: solid 1px #FF00BF;
+    border-radius: 10px;
+    padding: 0.7vw;
+    width: 11.5vw;
+    margin-right: 2.4vw;
+    font-size: medium;
+  }
+  
+  .alreadyApplied, .learnMore, .menu a {
+    text-decoration: none;
+    font-size: smaller;
+  }
+  
+  .alreadyApplied {
+    margin-left: 3.5vw;
+    margin-right: 6.5vw;
+  }
+  
+  .learnMore {
+    margin-right: 6.5vw;
+  }
+  
+  .usability {
+    background: linear-gradient(#76278F, #2B1E66);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 5vw;
+  }
+  
+  .phone {
+    width: 34vw;
+    height: auto;
+  }
+  
+  .usabilityText {
+    width: 34vw;
+    margin-right: 7.5vw;
+  }
+  
+  .usabilityText h3 {
+    font-size: x-large;
+    letter-spacing: 1px;
+    margin-bottom: 1.7vw;
+  }
+  
+  .usabilityText p {
+    font-size: 14px;
+    margin-bottom: 2.5vw;
+  }
+  
+  .amplifyYourRide, .june, .aGoodThinkGoing {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .amplifyYourRideText, .juneText, .aGoodThinkGoingText {
+    flex: 1.75;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: baseline;
+    padding-left: 3vw;
+    padding-top: 2.5vw;
+  }
+  
+  .aNewWayToGlowVideo, .juneVideo, .aGoodThinkGoingVideo {
+    border:none;
+    flex: 4;
+    height: 37.5vw;
+  }
+  
+  .juneVideo {
+    height: 36.5vw;
+  }
+  
+  .aGoodThinkGoingVideo {
+    height: 37.3vw;
+  }
+  
+  .amplifyYourRideText h4, .juneText h4, .aGoodThinkGoingText h4 {
+    font-size: small;
+    margin-bottom: 0;
+  }
+  
+  .juneText h4 {
+    margin-top: 0.7vw;
+  }
+  
+  .amplifyYourRideText h3, .juneText h3, .aGoodThinkGoingText h3 {
+    margin-top: 0;
+    font-size: x-large;
+    letter-spacing: 3px;
+    margin-bottom: 0.5vw;
+  }
+  
+  .amplifyYourRideText p, .juneText p, .aGoodThinkGoingText p {
+    width: 27vw;
+    letter-spacing: 0.5px;
+  }
+  
+  .juneText p {
+    width: 26vw;
+  }
+  
+  .apps img {
+    width: 9.5vw;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333447;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 37.7vw;
+  }
+  
+  .menu {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 3vw;
+    padding-left: 6vw;
+  }
+  
+  .menu a {
+    color: white;
+  }
+  
+  .menu div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-right: 14vw;
+  }
+  
+  .menu .learn {
+    margin-right: 13.2vw;
+  }
+  
+  .menu .apps {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.7vw;
+  }
+  
+  .menu div * {
+    margin-bottom: 2.5vw;
+  }
+  
+  .menu a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #FF00BF;
+  }
+  
+  .menu .apps * {
+    margin-bottom: 1vw;
+  }
+  
+  .fa-facebook-f, .fa-twitter {
+    border: solid 2px white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 1.2vw;
+    text-align: center;
+  }
+  
+  .socialMedia {
+    width: 15.5vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vw;
+    margin-bottom: 1vw;
+  }
+  
+  footer hr {
+    width: 60vw;
+  }
+  
+  .copyright {
+    font-size: smaller;
+    padding-top: 0.7vw;
+  }
